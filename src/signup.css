@@ -1,0 +1,74 @@
+.signup-page {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .signup-form-container {
+    background-color: #7D0000; 
+    width: 50%; /* Half the page width */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .signup-title {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .signup-form {
+    width: 80%;
+  }
+  
+  .signup-input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .signup-input::placeholder {
+    color: #777;
+  }
+  
+  .signup-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #D4AF37; 
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-button:hover {
+    background-color: #b58f29;
+  }
+  
+  /* Logo and right side styling */
+  .logo-container {
+    width: 50%; /* Half the page width */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  
+  .logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .university-title {
+    text-align: center;
+    color: #001A57; 
+    font-size: 1.2rem;
+  }
